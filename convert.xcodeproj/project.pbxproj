@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E1DC5BF4FF3429FEA7D083D /* Pods_convertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2BC37BAA6A1C2320C6398 /* Pods_convertTests.framework */; };
 		925263FF8FA5D732E8551F60 /* Pods_convertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D237ACC1088E44CF748BE /* Pods_convertUITests.framework */; };
+		99975C721E5E13D6006DEC2C /* filtered piano in Resources */ = {isa = PBXBuildFile; fileRef = 99975C711E5E13D6006DEC2C /* filtered piano */; };
 		BE1DD16B1E3C351200C683B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1DD16A1E3C351200C683B7 /* AppDelegate.swift */; };
 		BE1DD16D1E3C351200C683B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1DD16C1E3C351200C683B7 /* ViewController.swift */; };
 		BE1DD1701E3C351200C683B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1DD16E1E3C351200C683B7 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		51B283EA61B919E12C4DCFDD /* Pods-convert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convert/Pods-convert.debug.xcconfig"; sourceTree = "<group>"; };
 		60CDB4C301F5C6A5394558E7 /* Pods-convertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-convertTests/Pods-convertTests.release.xcconfig"; sourceTree = "<group>"; };
 		73D2BC37BAA6A1C2320C6398 /* Pods_convertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99975C711E5E13D6006DEC2C /* filtered piano */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "filtered piano"; path = "../../Desktop/filtered piano"; sourceTree = "<group>"; };
 		AD6D237ACC1088E44CF748BE /* Pods_convertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEABBE76D0A5D3500D0C84B8 /* Pods-convert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convert.release.xcconfig"; path = "Pods/Target Support Files/Pods-convert/Pods-convert.release.xcconfig"; sourceTree = "<group>"; };
 		BE1DD1671E3C351200C683B7 /* convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convert.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC164551E45BF96007278CF /* sound */,
+				99975C711E5E13D6006DEC2C /* filtered piano */,
 				BE1DD1691E3C351200C683B7 /* convert */,
 				BE1DD17E1E3C351200C683B7 /* convertTests */,
 				BE1DD1891E3C351200C683B7 /* convertUITests */,
@@ -311,6 +314,7 @@
 				BE1DD1751E3C351200C683B7 /* LaunchScreen.storyboard in Resources */,
 				BE1DD1721E3C351200C683B7 /* Assets.xcassets in Resources */,
 				BE1DD1701E3C351200C683B7 /* Main.storyboard in Resources */,
+				99975C721E5E13D6006DEC2C /* filtered piano in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
